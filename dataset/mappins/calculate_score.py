@@ -5,7 +5,7 @@ def main():
     distance = 3
 
     weight_distance = 1 # weight for distance
-    weight_frequency = 0.1 # weight for frequency
+    weight_frequency = 0.5 # weight for frequency
 
     # pairs of entity and temporal taggings
     pairs = {}
@@ -29,7 +29,7 @@ def main():
     for keytime in time:
         key_time = int(keytime)
         i += 1
-        print(key_time, i)
+        #print(key_time, i)
 
         for key_entity in entities:
             # the distance from time expression that has weight value
@@ -46,7 +46,7 @@ def main():
                         pairs[key_entity] = {};
                         pairs[key_entity][time[keytime]] = weight_distance/(abs(linesnum-key_time)+1)
                     else:
-                        if key_time not in pairs[key_entity]:
+                        if time[keytime] not in pairs[key_entity]:
                             pairs[key_entity][time[keytime]] = weight_distance/(abs(linesnum-key_time)+1)
                         else: # add the score of distance to the pair
                             pairs[key_entity][time[keytime]] += weight_distance/(abs(linesnum-key_time)+1)
@@ -55,9 +55,20 @@ def main():
                 # add the score of frequency to the pair
                 pairs[key_entity][time[keytime]] += weight_frequency * freq_count
 
-    print(pairs)
+
     with open('pair_result.pkl', 'wb') as f:
         pickle.dump(pairs, f, pickle.HIGHEST_PROTOCOL)
 
+def printpairs():
+    pairs = {}
+    with open('pair_result.pkl', 'r') as f:
+        pairs = pickle.load(f)
+
+    for k in pairs:
+        for t in pairs[k]:
+            if pairs[k][t] >= 3:
+                print(k, t, pairs[k][t])
+
 if __name__ == '__main__':
     main()
+    #printpairs()
