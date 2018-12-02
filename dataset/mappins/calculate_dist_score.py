@@ -70,5 +70,5 @@ def printpairs():
                 print(k, t, pairs[k][t])
 
 if __name__ == '__main__':
-    main()
-    #printpairs()
+    #main()
+    printpairs()
