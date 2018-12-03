@@ -1,9 +1,10 @@
 from __future__ import division
 import pickle
-import nltk 
+import spacy
 def main():
 	# weight for the semantic feature
-	weight_pos = 1
+	nlp = spacy.load('en')
+	weight_sub = 1
 
 	with open("new_obama.txt", 'r') as f:
 		lines = f.readlines()[0]
@@ -36,47 +37,37 @@ def main():
 			time = line_to_time[i]
 		except:
 			continue
+		sent = unicode(corpus_sent[i], 'utf-8')
+		doc = nlp(sent)
+		sub_toks = [tok for tok in doc if (tok.dep_ == "nsubj")]
 
-		sent = nltk.word_tokenize(unicode(corpus_sent[i], 'utf-8'))
-		pos_tag = nltk.pos_tag(sent)
-		key_word = []
-		Continue = False
-		key_str = ""
-		for tag in pos_tag:
-			if Continue == False:
-				key_str = ""
-			if tag[1] == 'NNP':
-				key_str += tag[0] + " "
-				Continue = True
+		# convert token to str
+		temp = []
+		for i in sub_toks:
+			temp.append(str(i))
 
-			if tag[1] != 'NNP':
-				Continue = False
-				if key_str != "":
-					key_word.append(key_str[:-1])
+		subject = unicode("".join(temp), 'utf-8')
 
-		#print(key_word)
-		for subject in key_word:
-			if subject in entities:
+		if subject in entities:
+			if subject not in pairs:
+				pairs[subject] = {}
+				pairs[subject][time] = weight_sub
+			else:
 				try:
-					if subject not in pairs:
-						pairs[subject] = {}
-						pairs[subject][time] = weight_pos
+					if time not in pairs[subject]:
+						pairs[subject][time] = weight_sub
 					else:
-						
-						if time not in pairs[subject]:
-							pairs[subject][time] = weight_pos
-						else:
-							pairs[subject][time] += weight_pos
+						pairs[subject][time] += weight_sub
 				except:
-					print "line" + str(i) + "SHIT HAPPENED"
+					print "SHIT HAPPENED"
 					continue
 
-	with open('pair_pos_score.pkl', 'wb') as f:
+	with open('pair_sub_score.pkl', 'wb') as f:
 		pickle.dump(pairs, f, pickle.HIGHEST_PROTOCOL)
 
 def printpairs():
 	pairs = {}
-	with open('pair_pos_score.pkl', 'r') as f:
+	with open('pair_sub_score.pkl', 'r') as f:
 		pairs = pickle.load(f)
 
 	for k in pairs:
@@ -88,7 +79,7 @@ def printpairs():
 
 
 if __name__ == '__main__':
-    main()
+    #main()
     printpairs()
 
 
