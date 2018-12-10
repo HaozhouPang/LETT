@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{tikz}
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{A Theoretical Study of WSD}
+ 
+ \author{Haozhou Pang \\
+  Department of Computing Science \\
+  University of Alberta\\
+  {\tt haozhou@ualberta.ca} \\\And
+ Yourui Guo\\
+  Department of Computing Science \\
+  University of Alberta\\
+  {\tt yourui@ualberta.ca} \\}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+TODO
+
+\end{abstract}
+
+
+\section{Introduction}
+  
+Entities in text can be related to some time points or intervals mentioned in an article. For example, when we try to search for “Thanksgiving day in 2018”, the result returned from search engine should be 2018-10-8. The concept of knowledge base is addressed to solve this problem where individual entities and relationships among them are stored in a large repository. The problem then arises: can we find out a method to detect entities and temporal taggings, along with observe their relations in plain text? 
+
+Our task could be formulated in such way: given a set of articles with entities and meaningful temporal expressions, we first pre-process the text and extract the candidate entities and temporal expressions, then we calculate the importance score by using a series of features for each entity - temporal expression pair so that the output will be a list of ranked entity - temporal expression pairs. In this way, we can extract the most important temporal information along with their corresponding entities from a article (plain text) without assistance of any external resources.
+
+This task is important as it can be applied to many other fields in Information Retrieval, for example, our model can be used to enrich the content of a existing knowledge base by providing temporal information that was taken from any source of text. 
+
+
+\section{Related Work}
+TODO
+
+\section{Method}
+The section presents information about how we approached the current task with more detailed description about the data set. 
+
+\subsection{Data}
+TODO
+
+\subsection{Lexical Feature}
+TODO
+
+\subsection{Syntactic Feature}
+TODO
+
+
+\subsection{Evaluation}
+TODO
+
+\section{Result}
+The section present the results of current task followed by detailed error analysis. 
+TODO
+
+\section{Conclusion}
+TODO
+
+\section*{Acknowledgments}
+
+First and far most, we would like to thank prof. Davood Rafiei for the advice and help on this project, also special thank to Michael Su for helpful discussions.
+\bibliographystyle{acl_natbib}
+\bibliography{ref}
+
+\end{document}

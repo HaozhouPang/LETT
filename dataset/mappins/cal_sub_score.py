@@ -72,7 +72,7 @@ def printpairs():
 
 	for k in pairs:
 		for t in pairs[k]:
-			if pairs[k][t] >= 3:
+			if pairs[k][t] >= 1:
 				print(k, t, pairs[k][t])
 
 
