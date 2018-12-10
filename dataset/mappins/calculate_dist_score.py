@@ -15,6 +15,12 @@ def main():
     with open('entity_linenum.pkl', 'r') as f:
         entities = pickle.load(f)
 
+    candidates = {}
+    with open('pair_sub_score.pkl', 'r') as w:
+        candidates = pickle.load(w)
+    for k in candidates.keys():
+        print(k)
+
     # load the list of temporal taggings with line numbers
     lines = [];
     time = {}; # dictionary for sentence and time
@@ -31,7 +37,8 @@ def main():
         i += 1
         #print(key_time, i)
 
-        for key_entity in entities:
+        for key_entity in candidates:
+
             # the distance from time expression that has weight value
             r = range(max(0, key_time - distance), min(len(entities[key_entity])-1, key_time + distance))
 
@@ -56,19 +63,19 @@ def main():
                 pairs[key_entity][time[keytime]] += weight_frequency * freq_count
 
 
-    with open('pair_result.pkl', 'wb') as f:
+    with open('pair_dist_score.pkl', 'wb') as f:
         pickle.dump(pairs, f, pickle.HIGHEST_PROTOCOL)
 
 def printpairs():
     pairs = {}
-    with open('pair_result.pkl', 'r') as f:
+    with open('pair_dist_score.pkl', 'r') as f:
         pairs = pickle.load(f)
 
     for k in pairs:
         for t in pairs[k]:
             if pairs[k][t] >= 3:
                 print(k, t, pairs[k][t])
-
+                #pass
 if __name__ == '__main__':
     #main()
     printpairs()
