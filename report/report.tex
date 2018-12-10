@@ -19,7 +19,7 @@
 
 \newcommand\BibTeX{B{\sc ib}\TeX}
 
-\title{A Theoretical Study of WSD}
+\title{Temporal taggings of Entities in Text }
  
  \author{Haozhou Pang \\
   Department of Computing Science \\
@@ -41,13 +41,15 @@ TODO
 
 
 \section{Introduction}
-  
-Entities in text can be related to some time points or intervals mentioned in an article. For example, when we try to search for “Thanksgiving day in 2018”, the result returned from search engine should be 2018-10-8. The concept of knowledge base is addressed to solve this problem where individual entities and relationships among them are stored in a large repository. The problem then arises: can we find out a method to detect entities and temporal taggings, along with observe their relations in plain text? 
+ Entities in text can be related to some time points or intervals mentioned in an article, and the demand of knowing temporal expressions that are significant to entities in articles is increasing over the years. For example, utilizing the temporal expressions can help us to look for the named entity it truly refers to. When we read a newspaper about Bush, we can interpret the named entity as George W. Bush knowing his birthdate being July 6, 1946 mentioned in the article. Also, extracting temporal expressions related to entities helps us to construct knowledge bases. As we know that most of knowledge bases contain a small quantity of temporal taggings for named entities. Thus, knowledge bases can be expanded by adding more related temporal taggings detected in the plain text.
+
+Temporal tagging detection is the process of looking for expressions in text that refers to time points or time intervals. Few works have studied on detecting temporal taggings [1, 2]. SUTime [1] is a library for recognizing and normalizing time expressions. It transforms time expressions like “October 1963” to the normalized value of “1963-10” and type of “DATE”. Normalizing temporal expressions reduces the chance of mis-recognizing the same date value to different ones, and the result of detecting the pairs of entity and temporal tagging can be more accurate as well.
+
+The concept of knowledge base is addressed to solve this problem where individual entities and relationships among them are stored in a large repository. The problem then arises: can we find out a method to detect entities and temporal taggings, along with observe their relations in plain text? 
 
 Our task could be formulated in such way: given a set of articles with entities and meaningful temporal expressions, we first pre-process the text and extract the candidate entities and temporal expressions, then we calculate the importance score by using a series of features for each entity - temporal expression pair so that the output will be a list of ranked entity - temporal expression pairs. In this way, we can extract the most important temporal information along with their corresponding entities from a article (plain text) without assistance of any external resources.
 
 This task is important as it can be applied to many other fields in Information Retrieval, for example, our model can be used to enrich the content of a existing knowledge base by providing temporal information that was taken from any source of text. 
-
 
 \section{Related Work}
 TODO
