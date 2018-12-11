@@ -19,10 +19,13 @@ def main():
     with open('pair_sub_score.pkl', 'r') as w:
         candidates = pickle.load(w)
 
+    l = candidates.keys()
+    if "D" in l:
+        print "dddddddddddddddd"
     # load the list of temporal taggings with line numbers
     lines = [];
     time = {}; # dictionary for sentence and time
-    with open('time_sentence.txt', 'r') as f:
+    with open('new_time_sentence.txt', 'r') as f:
         lines = f.readlines();
 
     for line in lines:
