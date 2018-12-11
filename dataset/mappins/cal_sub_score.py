@@ -8,12 +8,11 @@ def main():
 	nlp = StanfordCoreNLP('http://localhost:9000')
 	weight_sub = 1
 	corpus_sent = ()
-
-	with open("new_obama.txt", 'r') as f:
-		lines = f.readlines()[0]
-		temp = lines.split(".")
+	with open("lines.pkl", 'rb') as f:
+		temp = pickle.load(f)
 		for i in temp:
 			corpus_sent += (i,)
+
 
 
 	with open('linenum_entity.pkl' , 'rb') as f:
@@ -36,13 +35,10 @@ def main():
 	#print corpus_sent
 	#exit()
 
-	print len(corpus_sent)
-	exit()
-	for i in range(40000, len(corpus_sent)):
-		
+	for i in range(0, len(corpus_sent)):
 		if i % 1000 == 0:
 			print "step ", i
-		if 1 % 5000 == 0:
+		if i % 5000 == 0:
 			with open('pair_sub_score.pkl', 'wb') as f:
 				pickle.dump(pairs, f, pickle.HIGHEST_PROTOCOL)
 
@@ -63,9 +59,10 @@ def main():
 
 		#subject = unicode("".join(temp), 'utf-8')
 		try:
-			output = nlp.annotate(corpus_sent[i], properties={'annotators': 'tokenize,ssplit,pos,depparse,parse','outputFormat': 'json'})
+			#print 'TEST'
+			output = nlp.annotate(str(corpus_sent[i]), properties={'annotators': 'tokenize,ssplit,pos,depparse,parse','outputFormat': 'json'})
+			#print "PASS"
 			parsed_sent = output['sentences'][0]['parse']
-
 			start = parsed_sent.find('(NP (')
 			end = parsed_sent.find('))\n')
 
@@ -105,7 +102,7 @@ def printpairs():
 
 	for k in pairs:
 		for t in pairs[k]:
-			if pairs[k][t] >= 3:
+			if pairs[k][t] >= 1:
 				print(k, t, pairs[k][t])
 
 
@@ -113,7 +110,7 @@ def printpairs():
 
 if __name__ == '__main__':
     main()
-    #printpairs()
+    printpairs()
 
 
 

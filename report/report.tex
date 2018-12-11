@@ -45,11 +45,14 @@ TODO
 
 Temporal tagging detection is the process of looking for expressions in text that refers to time points or time intervals. Few works have studied on detecting temporal taggings [1, 2]. SUTime [1] is a library for recognizing and normalizing time expressions. It transforms time expressions like “October 1963” to the normalized value of “1963-10” and type of “DATE”. Normalizing temporal expressions reduces the chance of mis-recognizing the same date value to different ones, and the result of detecting the pairs of entity and temporal tagging can be more accurate as well.
 
+Named entities recognition seeks phrases or strings that refer to named entities like organizations, person name and places and so on. Natural Language ToolKit (NLTK) [3] is a platform that provides us with interfaces to work with human natural language data. NLTK is utilized for natural language processing such as named entity recognition. The basic idea of recognizing named entities is to consider the task as a noun-phrase chunking. Raw text will be split into sentences first, and each sentences will be chunked by word tokenizer. Then, next step is to seeking noun phrases among chunks by tagging each chunk with pos-tagger. The last step is to use relation detection to search for potential related entities to ensure the detected entity is meaningful.
+
 The concept of knowledge base is addressed to solve this problem where individual entities and relationships among them are stored in a large repository. The problem then arises: can we find out a method to detect entities and temporal taggings, along with observe their relations in plain text? 
 
 Our task could be formulated in such way: given a set of articles with entities and meaningful temporal expressions, we first pre-process the text and extract the candidate entities and temporal expressions, then we calculate the importance score by using a series of features for each entity - temporal expression pair so that the output will be a list of ranked entity - temporal expression pairs. In this way, we can extract the most important temporal information along with their corresponding entities from a article (plain text) without assistance of any external resources.
 
 This task is important as it can be applied to many other fields in Information Retrieval, for example, our model can be used to enrich the content of a existing knowledge base by providing temporal information that was taken from any source of text. 
+
 
 \section{Related Work}
 TODO
