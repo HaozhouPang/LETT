@@ -18,8 +18,6 @@ def main():
     candidates = {}
     with open('pair_sub_score.pkl', 'r') as w:
         candidates = pickle.load(w)
-    for k in candidates.keys():
-        print(k)
 
     # load the list of temporal taggings with line numbers
     lines = [];
@@ -77,5 +75,5 @@ def printpairs():
                 print(k, t, pairs[k][t])
                 #pass
 if __name__ == '__main__':
-    #main()
+    main()
     printpairs()
