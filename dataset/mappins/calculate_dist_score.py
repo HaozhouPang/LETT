@@ -19,9 +19,6 @@ def main():
     with open('pair_sub_score.pkl', 'r') as w:
         candidates = pickle.load(w)
 
-    l = candidates.keys()
-    if "D" in l:
-        print "dddddddddddddddd"
     # load the list of temporal taggings with line numbers
     lines = [];
     time = {}; # dictionary for sentence and time
@@ -30,7 +27,7 @@ def main():
 
     for line in lines:
         temp = line.split(':')
-        time[temp[0]] = temp[1]
+        time[temp[0]] = temp[1].strip()
 
     i = 0
     for keytime in time:

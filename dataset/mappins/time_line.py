@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 		if result[ridx]['start'] >= sen_start and result[ridx]['end'] <= sen_end:
 			print(result[ridx]['value'])
-			write_to_file.append(str(idx) + ": " + result[ridx]['text'].encode('ascii', 'replace'))
+			write_to_file.append(str(idx) + ": " + '-'.join(result[ridx]['value']))
 			ridx = ridx + 1
 
 	fout.write(write_to_file)
