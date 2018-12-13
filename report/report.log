@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 DEC 2018 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 DEC 2018 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -621,6 +621,12 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
+<demo.png, id=7, 771.88374pt x 171.64125pt>
+File: demo.png Graphic file (type png)
+ <use demo.png>
+Package pdftex.def Info: demo.png used on input line 54.
+(pdftex.def)             Requested size: 219.08612pt x 48.71658pt.
+
 Underfull \vbox (badness 7540) has occurred while \output is active []
 
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -628,40 +634,78 @@ Underfull \vbox (badness 7540) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+Underfull \hbox (badness 1546) in paragraph at lines 63--64
+\OT1/ptm/m/n/12 is ad-dressed to solve it where in-di-vid-ual
+ []
 
+
+Underfull \hbox (badness 1005) in paragraph at lines 63--64
+\OT1/ptm/m/n/12 en-ti-ties and re-la-tion-ships among them are
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 65--66
+\OT1/ptm/m/n/12 tem-ponyms onto events stored in Knowl-
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [2 <./demo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 1158) in paragraph at lines 93--94
+\OT1/ptm/m/n/12 In 2008, Barack Obama be-came the first
+ []
+
+[3]
 No file report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
-[2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+[4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  )
 (\end occurred when \iffalse on line 337 was incomplete) 
 Here is how much of TeX's memory you used:
- 15541 strings out of 492995
- 294913 string characters out of 6132704
- 357394 words of memory out of 5000000
- 18822 multiletter control sequences out of 15000+600000
- 16615 words of font info for 41 fonts, out of 8000000 for 9000
+ 15549 strings out of 492995
+ 294969 string characters out of 6132704
+ 358392 words of memory out of 5000000
+ 18824 multiletter control sequences out of 15000+600000
+ 14788 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,800b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,828b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/201
 7/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fo
-nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
-s/utmr8a.pfb>
-Output written on report.pdf (2 pages, 43891 bytes).
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on report.pdf (4 pages, 127003 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
