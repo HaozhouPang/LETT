@@ -20,7 +20,7 @@ def get_continuous_chunks(text):
     return continuous_chunk
  
 def main():
-    with codecs.open('new_obama.txt', 'r', encoding='utf-8') as f:
+    with codecs.open('data.txt', 'r', encoding='utf-8') as f:
 
         #print(f.readlines()[0][5699:5700])
         #exit()

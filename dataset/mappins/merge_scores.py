@@ -7,8 +7,8 @@ def main():
 
 	final_pairs = {}
 
-	with open('pair_baseline_score.pkl', 'r') as f:
-		pair_base = pickle.load(f)
+	#with open('pair_baseline_score.pkl', 'r') as f:
+	#	pair_base = pickle.load(f)
 	with open('pair_pos_score.pkl', 'r') as f:
 		pair_pos = pickle.load(f)
 	with open('pair_sub_score.pkl', 'r') as f:
@@ -64,10 +64,11 @@ def main():
 					final_pairs[entity][time] = pair_dist[entity][time]
 				else:
 					final_pairs[entity][time] += pair_dist[entity][time]
-
+	count = 0
 	for k in final_pairs:
 		for t in final_pairs[k]:
-			if final_pairs[k][t] >= 130:
+			if final_pairs[k][t] >=15:
 				print(k, t, final_pairs[k][t])
-
+				count += 1
+	print count 
 main()
