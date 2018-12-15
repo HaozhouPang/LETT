@@ -29,13 +29,13 @@ def main():
 				value = line.rstrip().split(':')[1:]
 			line_to_time[int(key)] = value
 
-
-	pairs = {}
+	with open('pair_sub_score.pkl', 'rb') as f:
+		pairs = pickle.load(f)
 
 	#print corpus_sent
 	#exit()
 
-	for i in range(0, len(corpus_sent)):
+	for i in range(20000, len(corpus_sent)):
 		if i % 1000 == 0:
 			print "step ", i
 		if i % 5000 == 0:

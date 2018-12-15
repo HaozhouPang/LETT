@@ -5,10 +5,8 @@ def main():
 	# weight for the semantic feature
 	weight_pos = 1
 
-	with open("new_obama.txt", 'r') as f:
-		lines = f.readlines()[0]
-		corpus_sent = lines.split(".")
-
+	with open("lines.pkl", 'r') as f:
+		corpus_sent = pickle.load(f)
 	with open('linenum_entity.pkl' , 'rb') as f:
 		line_to_entity = pickle.load(f)
 
@@ -20,7 +18,7 @@ def main():
 				key, value = line.rstrip().split(':')
 			except:
 				key = line.rstrip().split(':')[0]
-				value = line.rstrip().split(':')[1:]
+				value = " ".join(line.rstrip().split(':')[1:])
 			line_to_time[int(key)] = value
 
 
@@ -37,7 +35,7 @@ def main():
 		except:
 			continue
 
-		sent = nltk.word_tokenize(unicode(corpus_sent[i], 'utf-8'))
+		sent = nltk.word_tokenize(corpus_sent[i])
 		pos_tag = nltk.pos_tag(sent)
 		key_word = []
 		Continue = False

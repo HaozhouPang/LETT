@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 DEC 2018 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 DEC 2018 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,6 +602,30 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 35.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+Underfull \hbox (badness 1454) in paragraph at lines 38--39
+[]\OT1/ptm/m/n/12 The prob-lem ad-dressed in this pa-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 per aims at search-ing for tem-po-ral
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 tag-gings that are sig-nif-i-cant to en-
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 ti-ties men-tioned in ar-ti-cles. This
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 ond, tem-po-ral ex-pres-sion de-tec-tion,
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -621,19 +645,19 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-<demo.png, id=7, 771.88374pt x 171.64125pt>
-File: demo.png Graphic file (type png)
- <use demo.png>
-Package pdftex.def Info: demo.png used on input line 54.
-(pdftex.def)             Requested size: 219.08612pt x 48.71658pt.
-
-Underfull \vbox (badness 7540) has occurred while \output is active []
+Underfull \vbox (badness 2229) has occurred while \output is active []
 
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
+<demo.png, id=29, 771.88374pt x 171.64125pt>
+File: demo.png Graphic file (type png)
+ <use demo.png>
+Package pdftex.def Info: demo.png used on input line 54.
+(pdftex.def)             Requested size: 219.08612pt x 48.71658pt.
+
 Underfull \hbox (badness 1546) in paragraph at lines 63--64
 \OT1/ptm/m/n/12 is ad-dressed to solve it where in-di-vid-ual
  []
@@ -644,18 +668,34 @@ Underfull \hbox (badness 1005) in paragraph at lines 63--64
  []
 
 
+Underfull \hbox (badness 1546) in paragraph at lines 63--64
+\OT1/ptm/m/n/12 and un-struc-tured in-for-ma-tion, and knowl-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 63--64
+\OT1/ptm/m/n/12 edge bases like YAGO ([][]Suchanek et al.[][],
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 63--64
+\OT1/ptm/m/n/12 pub-lic. The for-mat of re-la-tion stored in
+ []
+
+
 Underfull \hbox (badness 1400) in paragraph at lines 65--66
 \OT1/ptm/m/n/12 tem-ponyms onto events stored in Knowl-
  []
 
+[2 <./demo.png>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-
-Underfull \vbox (badness 1248) has occurred while \output is active []
-
- [2 <./demo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
@@ -665,34 +705,182 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
+<base_set1.png, id=74, 149.55875pt x 182.6825pt>
+File: base_set1.png Graphic file (type png)
+ <use base_set1.png>
+Package pdftex.def Info: base_set1.png used on input line 129.
+(pdftex.def)             Requested size: 98.58807pt x 120.42586pt.
 
-Underfull \hbox (badness 1158) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 In 2008, Barack Obama be-came the first
+<new_set1.png, id=75, 147.55125pt x 183.68625pt>
+File: new_set1.png Graphic file (type png)
+ <use new_set1.png>
+Package pdftex.def Info: new_set1.png used on input line 134.
+(pdftex.def)             Requested size: 98.58807pt x 122.73279pt.
+ [4]
+<base_set2.png, id=89, 146.5475pt x 181.67876pt>
+File: base_set2.png Graphic file (type png)
+ <use base_set2.png>
+Package pdftex.def Info: base_set2.png used on input line 146.
+(pdftex.def)             Requested size: 94.20541pt x 116.78685pt.
+
+<new_set2.png, id=90, 173.64874pt x 179.67125pt>
+File: new_set2.png Graphic file (type png)
+ <use new_set2.png>
+Package pdftex.def Info: new_set2.png used on input line 151.
+(pdftex.def)             Requested size: 113.9257pt x 117.88153pt.
+
+(./report.bbl
+Overfull \hbox (2.84177pt too wide) in paragraph at lines 6--15
+[][]\OT1/ptm/m/n/10 http://dl.acm.org/citation.cfm?id=1785162.1785216[][]. 
  []
 
-[3]
-No file report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-[4
+[5 <./base_set1.png> <./new_set1.png> <./base_set2.png> <./new_set2.png>]
+Underfull \hbox (badness 6063) in paragraph at lines 17--23
+[]\OT1/ptm/m/n/10 Steven Bird, Ewan Klein, and Ed-ward Loper.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
+\OT1/ptm/m/n/10 2009.  \OT1/ptm/m/it/10 Nat-u-ral Lan-guage Pro-cess-ing with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
+\OT1/ptm/m/it/10 Python: An-a-lyz-ing Text with the Nat-u-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--23
+\OT1/ptm/m/it/10 ral Lan-guage Toolkit\OT1/ptm/m/n/10 .  O'Reilly, Bei-jing.
+ []
+
+
+Overfull \hbox (11.1913pt too wide) in paragraph at lines 17--23
+[][]\OT1/ptm/m/n/10 https://doi.org/http://my.safaribooksonline.com/97805[][]. 
+
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 26--35
+[]\OT1/ptm/m/n/10 Kurt Bol-lacker, Colin Evans, Praveen Par-i-tosh,
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 26--35
+\OT1/ptm/m/n/10 Tim Sturge, and Jamie Tay-lor. 2008.  [][]Free-
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 26--35
+\OT1/ptm/m/n/10 base: A col-lab-o-ra-tively cre-ated graph database
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 26--35
+\OT1/ptm/m/it/10 ings of the 2008 ACM SIG-MOD In-ter-na-tional
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 42--50
+[]\OT1/ptm/m/n/10 Erdal Kuzey, Vinay Setty, Jan-nik Str[]otgen, and
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 42--50
+\OT1/ptm/m/n/10 Ger-hard Weikum. 2016.  [][]As time goes by:
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 42--50
+\OT1/ptm/m/n/10 Com-pre-hen-sive tag-ging of tex-tual phrases with
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 42--50
+\OT1/ptm/m/n/10 tem-po-ral scopes[][].  In \OT1/ptm/m/it/10 Pro-ceed-ings of th
+e 25th
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 42--50
+\OT1/ptm/m/it/10 In-ter-na-tional Con-fer-ence on World Wide Web\OT1/ptm/m/n/10
+ .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--50
+\OT1/ptm/m/n/10 In-ter-na-tional World Wide Web Con-fer-ences
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 42--50
+\OT1/ptm/m/n/10 Steer-ing Com-mit-tee, Re-pub-lic and Can-ton of
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 53--62
+\OT1/ptm/m/n/10 Jenny Finkel, Steven Bethard, and David Mc-
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 64--73
+[]\OT1/ptm/m/n/10 Mike Mintz, Steven Bills, Rion Snow, and Dan
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 64--73
+\OT1/ptm/m/n/10 ex-trac-tion with-out la-beled data[][].  In \OT1/ptm/m/it/10 P
+ro-ceed-
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 64--73
+\OT1/ptm/m/it/10 Meet-ing of the ACL and the 4th In-ter-na-tional
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 64--73
+\OT1/ptm/m/it/10 Joint Con-fer-ence on Nat-u-ral Lan-guage Pro-
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 64--73
+\OT1/ptm/m/it/10 cess-ing of the AFNLP: Vol-ume 2 - Vol-ume
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 64--73
+\OT1/ptm/m/it/10 2\OT1/ptm/m/n/10 . As-so-ci-a-tion for Com-pu-ta-tional Lin-gu
+is-tics,
+ []
+
+
+Overfull \hbox (2.84177pt too wide) in paragraph at lines 64--73
+[][]\OT1/ptm/m/n/10 http://dl.acm.org/citation.cfm?id=1690219.1690287[][]. 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  )
 (\end occurred when \iffalse on line 337 was incomplete) 
 Here is how much of TeX's memory you used:
- 15549 strings out of 492995
- 294969 string characters out of 6132704
- 358392 words of memory out of 5000000
- 18824 multiletter control sequences out of 15000+600000
- 14788 words of font info for 38 fonts, out of 8000000 for 9000
+ 15627 strings out of 492995
+ 296016 string characters out of 6132704
+ 361019 words of memory out of 5000000
+ 18873 multiletter control sequences out of 15000+600000
+ 18057 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,828b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,15n,54p,893b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/201
 7/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fon
@@ -702,10 +890,10 @@ type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on report.pdf (4 pages, 127003 bytes).
+Output written on report.pdf (6 pages, 204510 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

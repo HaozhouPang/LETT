@@ -1,0 +1,92 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Auer et~al.(2007)Auer, Bizer, Kobilarov, Lehmann, Cyganiak, and
+  Ives}]{dbpedia}
+S\"{o}ren Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard
+  Cyganiak, and Zachary Ives. 2007.
+\newblock \href{http://dl.acm.org/citation.cfm?id=1785162.1785216}{Dbpedia: A
+  nucleus for a web of open data}.
+\newblock In {\em Proceedings of the 6th International The Semantic Web and 2Nd
+  Asian Conference on Asian Semantic Web Conference\/}. Springer-Verlag,
+  Berlin, Heidelberg, ISWC'07/ASWC'07, pages 722--735.
+\newblock
+  \href{http://dl.acm.org/citation.cfm?id=1785162.1785216}{http://dl.acm.org/citation.cfm?id=1785162.1785216}.
+
+\bibitem[{Bird et~al.(2009)Bird, Klein, and Loper}]{nltk}
+Steven Bird, Ewan Klein, and Edward Loper. 2009.
+\newblock {\em Natural Language Processing with Python: Analyzing Text with the
+  Natural Language Toolkit\/}.
+\newblock O'Reilly, Beijing.
+\newblock
+  \href{https://doi.org/http://my.safaribooksonline.com/97805}{https://doi.org/http://my.safaribooksonline.com/97805}.
+
+\bibitem[{Bollacker et~al.(2008)Bollacker, Evans, Paritosh, Sturge, and
+  Taylor}]{freebase}
+Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie Taylor.
+  2008.
+\newblock \href{https://doi.org/10.1145/1376616.1376746}{Freebase: A
+  collaboratively created graph database for structuring human knowledge}.
+\newblock In {\em Proceedings of the 2008 ACM SIGMOD International Conference
+  on Management of Data\/}. ACM, New York, NY, USA, SIGMOD '08, pages
+  1247--1250.
+\newblock
+  \href{https://doi.org/10.1145/1376616.1376746}{https://doi.org/10.1145/1376616.1376746}.
+
+\bibitem[{Chang and Manning(2012)}]{SuTime}
+Angel~X. Chang and Christopher~D. Manning. 2012.
+\newblock Sutime: A library for recognizing and normalizing time expressions.
+\newblock In {\em In LREC\/}.
+
+\bibitem[{Kuzey et~al.(2016)Kuzey, Setty, Str\"{o}tgen, and Weikum}]{Kuzey}
+Erdal Kuzey, Vinay Setty, Jannik Str\"{o}tgen, and Gerhard Weikum. 2016.
+\newblock \href{https://doi.org/10.1145/2872427.2883055}{As time goes by:
+  Comprehensive tagging of textual phrases with temporal scopes}.
+\newblock In {\em Proceedings of the 25th International Conference on World
+  Wide Web\/}. International World Wide Web Conferences Steering Committee,
+  Republic and Canton of Geneva, Switzerland, WWW '16, pages 915--925.
+\newblock
+  \href{https://doi.org/10.1145/2872427.2883055}{https://doi.org/10.1145/2872427.2883055}.
+
+\bibitem[{Manning et~al.(2014)Manning, Surdeanu, Bauer, Finkel, Bethard, and
+  McClosky}]{corenlp}
+Christopher Manning, Mihai Surdeanu, John Bauer, Jenny Finkel, Steven Bethard,
+  and David McClosky. 2014.
+\newblock \href{https://doi.org/10.3115/v1/P14-5010}{The stanford corenlp
+  natural language processing toolkit}.
+\newblock In {\em Proceedings of 52nd Annual Meeting of the Association for
+  Computational Linguistics: System Demonstrations\/}. Association for
+  Computational Linguistics, pages 55--60.
+\newblock
+  \href{https://doi.org/10.3115/v1/P14-5010}{https://doi.org/10.3115/v1/P14-5010}.
+
+\bibitem[{Mintz et~al.(2009)Mintz, Bills, Snow, and Jurafsky}]{Mintz}
+Mike Mintz, Steven Bills, Rion Snow, and Dan Jurafsky. 2009.
+\newblock \href{http://dl.acm.org/citation.cfm?id=1690219.1690287}{Distant
+  supervision for relation extraction without labeled data}.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP: Volume 2 - Volume 2\/}. Association for
+  Computational Linguistics, Stroudsburg, PA, USA, ACL '09, pages 1003--1011.
+\newblock
+  \href{http://dl.acm.org/citation.cfm?id=1690219.1690287}{http://dl.acm.org/citation.cfm?id=1690219.1690287}.
+
+\bibitem[{Niu et~al.(2012)Niu, Zhang, and W~Shavlik}]{deepdive}
+Feng Niu, Ce~Zhang, and Jude W~Shavlik. 2012.
+\newblock Deepdive: Web-scale knowledge-base construction using statistical
+  learning and inference.
+\newblock volume 12(1).
+
+\bibitem[{Str{\"o}tgen and Gertz(2012)}]{HeidelTime}
+Jannik Str{\"o}tgen and Michael Gertz. 2012.
+\newblock Temporal tagging on different domains: Challenges, strategies, and
+  gold standards.
+\newblock In {\em LREC\/}.
+
+\bibitem[{Suchanek et~al.(2007)Suchanek, Kasneci, and Weikum}]{yago}
+Fabian~M. Suchanek, Gjergji Kasneci, and Gerhard Weikum. 2007.
+\newblock {Yago: A Core of Semantic Knowledge}.
+\newblock In {\em 16th International Conference on the World Wide Web\/}. pages
+  697--706.
+
+\end{thebibliography}

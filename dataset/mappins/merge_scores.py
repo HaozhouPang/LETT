@@ -68,7 +68,7 @@ def main():
 	for k in final_pairs:
 		for t in final_pairs[k]:
 
-			if final_pairs[k][t] >=15:
+			if final_pairs[k][t] >=30:
 				print(k, t, final_pairs[k][t])
 				count += 1
 	print count 

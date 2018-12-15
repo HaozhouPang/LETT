@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: report.aux
+The style file: acl_natbib.bst
+Database file #1: ref.bib
+Warning--empty booktitle in deepdive
+You've used 10 entries,
+            2936 wiz_defined-function locations,
+            672 strings with 7352 characters,
+and the built_in function-call counts, 7982 in all, are:
+= -- 625
+> -- 382
+< -- 9
++ -- 126
+- -- 114
+* -- 586
+:= -- 1120
+add.period$ -- 52
+call.type$ -- 10
+change.case$ -- 103
+chr.to.int$ -- 10
+cite$ -- 11
+duplicate$ -- 636
+empty$ -- 631
+format.name$ -- 148
+if$ -- 1681
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 122
+newline$ -- 60
+num.names$ -- 40
+pop$ -- 279
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 232
+stack$ -- 0
+substring$ -- 312
+swap$ -- 320
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 87
+warning$ -- 1
+while$ -- 48
+width$ -- 0
+write$ -- 150
+(There was 1 warning)
